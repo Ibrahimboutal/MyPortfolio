@@ -9,7 +9,8 @@ This is the source code for my personal portfolio website, built to showcase my 
 ## 🖥️ **Live Demo**
 Check out the live version of the portfolio:  
 [https://ibrahimboutal.github.io/MyPortfolio/](https://ibrahimboutal.github.io//MyPortfolio/)
-![image](https://github.com/user-attachments/assets/9704b90d-23d6-41b1-a27d-18890daa8591)
+
+![image](https://github.com/user-attachments/assets/e63f6382-0640-45ac-9232-06e78eab9ba7)
 
 
 ---
