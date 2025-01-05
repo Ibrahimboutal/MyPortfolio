@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS adjustments */
+.fixed {
+    z-index: 50; /* Ensure high stacking priority */
+}
+
+.top-4 {
+    top: 1rem; /* Adjust as needed */
+}
+
+.right-4 {
+    right: 1rem; /* Adjust as needed */
+}
+
+/* Prevent overlapping with BackToTop */
+@media (max-width: 768px) {
+    .fixed {
+        top: 1.5rem; /* Add more space for mobile views */
+    }
+}
+
+/* Theme toggle adjustments */
+.theme-toggle {
+    margin-right: 10px; /* Adjust as needed */
+}
+
+/* Mobile-specific adjustments for theme-toggle */
+@media (max-width: 768px) {
+    .theme-toggle {
+        margin-right: 5px; /* Reduce margin for smaller screens */
+        padding: 8px; /* Optional: Adjust padding for better fit */
+        font-size: 14px; /* Optional: Adjust font size */
+    }
+}
+
+/* General BackToTop styles */
+.back-to-top {
+    position: fixed;
+    bottom: 1rem; /* Default bottom position */
+    right: 1rem;  /* Default right position */
+    z-index: 9999; /* Higher stacking priority */
+}
+
+/* Adjust for larger screens */
+@media (min-width: 768px) {
+    .back-to-top {
+        bottom: 2rem;
+        right: 2rem;
+    }
+}
